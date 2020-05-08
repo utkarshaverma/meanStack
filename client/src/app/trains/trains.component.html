@@ -1,0 +1,33 @@
+<p>trains works!</p>
+<div class="container">
+    <div *ngFor ="let train of trains">
+        <div class="col-md-3">
+            <span> writing name</span>
+            {{train.name}}
+        </div>
+        <div class="col-md-3">
+            <span> writing destination</span>
+            {{train.destination}}
+        </div>
+        <div class="col-md-3">
+            <span> writing origin</span>
+            {{train.origin}}
+        </div>
+        <div class="col-md-3">
+            <span> writing deptTime</span>
+            {{train.departureTime}}
+        </div>
+        <div class="col-md-3">
+            <span> writing arvTime</span>
+            {{train.arivalTime}}
+        </div>
+        <div class="col-md-3">
+            <span> writing seats</span>
+            {{train.numOfSeats}}
+        </div>
+        <div class="col-md-3">
+            <span> writing price</span>
+            {{train.price}}
+        </div>
+    </div>
+</div>
